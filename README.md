@@ -1,1 +1,1 @@
-# Empfehlungssystem für Lerneinheiten der online-Lehre 
+# Automatisierte Zerlegung von Vorlesungsaufzeichnungen zur Realisierung eines Empfehlungssystems für die Lerneinheitender Online-Lehre
