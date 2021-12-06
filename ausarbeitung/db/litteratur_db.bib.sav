@@ -1,0 +1,561 @@
+% Encoding: UTF-8
+
+@InProceedings{Bohnenkamp2020,
+  author    = {Björn Bohnenkamp, Marcus Burkhardt, Katja Grashöfer},
+  booktitle = {Hochschulforum Digitalisierung},
+  title     = {Online-Lehre 2020 – Eine medienwissenschaftliche Perspektive},
+  year      = {2020},
+  url       = {https://hochschulforumdigitalisierung.de/sites/default/files/dateien/HFD_DP_10_Online-Lehre_2020_Eine_medienwissenschaftliche_Perspektive.pdf},
+}
+
+@Electronic{Bitkom2020,
+  author = {Bitkom},
+  month  = nov,
+  title  = {Corona treibt Digitalisierung voran – aber nicht alle Unternehmen können mithalten},
+  url    = {https://www.bitkom.org/Presse/Presseinformation/Corona-treibt-Digitalisierung-voran-aber-nicht-alle-Unternehmen-koennen-mithalten},
+  year   = {2020},
+}
+
+@InProceedings{Wannemacher2016,
+  author    = {Klaus Wannemacher},
+  booktitle = {Hochschulforum Digitalisierung},
+  title     = {ORGANISATION DIGITALER LEHRE IN DEN DEUTSCHEN HOCHSCHULEN},
+  year      = {2016},
+}
+
+@Article{Besse2021,
+  author  = {M. Besse, J. Wiltfang, M. Belz und J. Signerski-Krieger},
+  journal = {Nervenarzt},
+  title   = {Einführung digitaler Lehre im Fach Psychiatrie als Reaktion auf COVID-19: eine vergleichende Evaluation zur Präsenzlehre},
+  year    = {2021},
+}
+
+@PhdThesis{Engelbert2016,
+  author = {Benedikt Engelbert},
+  school = {Universität Osnabrück},
+  title  = {Maschinelle Generierung von Empfehlungen zur Lehr-/Lernunterstützung im Hochschulkontext},
+  year   = {2016},
+}
+
+@Unpublished{Stephan,
+  author = {Stephan Kopf and Fleming L ampi and Thomas King and Malte P robst, Wolfgang E ffelsberg},
+  note   = {Lehrstuhlfür PraktischeInformatik IV},
+  title  = {EDL-Editor: Eine Anwendung zur a utomatischenAufbereitung v on Vorlesungsvideos},
+}
+
+@InProceedings{Shah2017,
+  author    = {Shah, Dhruv and Shah, Pratik and Banerjee, Asim},
+  booktitle = {TENCON 2017 - 2017 IEEE Region 10 Conference},
+  title     = {Similarity based regularization for online matrix-factorization problem: An application to course recommender systems},
+  year      = {2017},
+  pages     = {1874-1879},
+  doi       = {10.1109/TENCON.2017.8228164},
+}
+
+@InProceedings{Neamah2018,
+  author    = {Neamah, Ammar A. and El-Ameer, Amer S.},
+  booktitle = {2018 International Conference on Advanced Science and Engineering (ICOASE)},
+  title     = {Design and Evaluation of a Course Recommender System Using Content-Based Approach},
+  year      = {2018},
+  pages     = {1-6},
+  doi       = {10.1109/ICOASE.2018.8548789},
+}
+
+@Article{Joy2021,
+  author    = {Joy, Jeevamol and Pillai, Renumol Vemballiveli Govinda},
+  journal   = {Journal of King Saud University-Computer and Information Sciences},
+  title     = {Review and Classification of Content Recommenders in E-learning Environment},
+  year      = {2021},
+  publisher = {Elsevier},
+}
+
+@Article{Lauer2005,
+  author = {Tobias Lauer and Stephan Trahasch},
+  title  = {Begriffsbesprechung: Vorlesungsaufzeichnung:},
+  year   = {2005},
+  number = {3},
+  pages  = {61--61},
+  volume = {4},
+  doi    = {doi:10.1524/icom.2005.4.3.61},
+  url    = {https://doi.org/10.1524/icom.2005.4.3.61},
+}
+
+@Book{niederhauser2011schriftliche,
+  author    = {Jürg Niederhauser},
+  publisher = {Dudenverl.},
+  title     = {Die schriftliche Arbeit},
+  year      = {2011},
+  pages 	= {21},
+}
+
+@Article{brocke2009reconstructing,
+  author = {Brocke, Jan vom and Simons, Alexander and Niehaves, Bjoern and Niehaves, Bjorn and Reimer, Kai and Plattfaut, Ralf and Cleven, Anne},
+  title  = {Reconstructing the giant: On the importance of rigour in documenting the literature search process},
+  year   = {2009},
+}
+
+@Article{Hug2020,
+  author    = {Nicolas Hug},
+  journal   = {Journal of Open Source Software},
+  title     = {Surprise: A Python library for recommender systems},
+  year      = {2020},
+  number    = {52},
+  pages     = {2174},
+  volume    = {5},
+  doi       = {10.21105/joss.02174},
+  publisher = {The Open Journal},
+  url       = {https://doi.org/10.21105/joss.02174},
+}
+
+@InProceedings{Fu2015,
+  author    = {Fu, Dan and Liu, Qingtang and Zhang, Si and Wang, Jianhu},
+  booktitle = {2015 International Symposium on Educational Technology (ISET)},
+  title     = {The Undergraduate-Oriented Framework of MOOCs Recommender System},
+  year      = {2015},
+  pages     = {115-119},
+  doi       = {10.1109/ISET.2015.31},
+}
+
+@Article{Bousbahi2015,
+  author   = {Fatiha Bousbahi and Henda Chorfi},
+  journal  = {Procedia - Social and Behavioral Sciences},
+  title    = {MOOC-Rec: A Case Based Recommender System for MOOCs},
+  year     = {2015},
+  issn     = {1877-0428},
+  note     = {World Conference on Technology, Innovation and Entrepreneurship},
+  pages    = {1813-1822},
+  volume   = {195},
+  doi      = {https://doi.org/10.1016/j.sbspro.2015.06.395},
+  keywords = {Technology enhanced learning, TEL, MOOC, Recommendation system, CBR},
+  url      = {https://www.sciencedirect.com/science/article/pii/S1877042815038744},
+}
+
+@InProceedings{Jain2018,
+  author    = {Jain, Harshit and Anika},
+  booktitle = {2018 IEEE 6th International Conference on MOOCs, Innovation and Technology in Education (MITE)},
+  title     = {Applying Data Mining Techniques for Generating MOOCs Recommendations on the Basis of Learners Online Activity},
+  year      = {2018},
+  pages     = {6-13},
+  doi       = {10.1109/MITE.2018.8747056},
+}
+
+@Article{romero2008data,
+  author    = {Romero, Crist{\'o}bal and Ventura, Sebasti{\'a}n and Garc{\'\i}a, Enrique},
+  journal   = {Computers \& Education},
+  title     = {Data mining in course management systems: Moodle case study and tutorial},
+  year      = {2008},
+  number    = {1},
+  pages     = {368--384},
+  volume    = {51},
+  publisher = {Elsevier},
+}
+
+@Article{gulzar2018pcrs,
+  author    = {Gulzar, Zameer and Leema, A Anny and Deepak, Gerard},
+  journal   = {Procedia Computer Science},
+  title     = {Pcrs: Personalized course recommender system based on hybrid approach},
+  year      = {2018},
+  pages     = {518--524},
+  volume    = {125},
+  publisher = {Elsevier},
+}
+
+@Article{Adomavicius2005,
+  author  = {Adomavicius, G. and Tuzhilin, A.},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  title   = {Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions},
+  year    = {2005},
+  number  = {6},
+  pages   = {734-749},
+  volume  = {17},
+  doi     = {10.1109/TKDE.2005.99},
+}
+
+@Article{herlocker2004evaluating,
+  author    = {Herlocker, Jonathan L and Konstan, Joseph A and Terveen, Loren G and Riedl, John T},
+  journal   = {ACM Transactions on Information Systems (TOIS)},
+  title     = {Evaluating collaborative filtering recommender systems},
+  year      = {2004},
+  number    = {1},
+  pages     = {5--53},
+  volume    = {22},
+  publisher = {ACM New York, NY, USA},
+}
+
+@Article{burke2002hybrid,
+  author    = {Burke, Robin},
+  journal   = {User modeling and user-adapted interaction},
+  title     = {Hybrid recommender systems: Survey and experiments},
+  year      = {2002},
+  number    = {4},
+  pages     = {331--370},
+  volume    = {12},
+  publisher = {Springer},
+}
+
+@InCollection{ricci2011introduction,
+  author    = {Ricci, Francesco and Rokach, Lior and Shapira, Bracha},
+  booktitle = {Recommender systems handbook},
+  publisher = {Springer},
+  title     = {Introduction to recommender systems handbook},
+  year      = {2011},
+  pages     = {1--35},
+}
+
+@InProceedings{Guo2015,
+  author    = {Guo, Yaqiong and Huang, Mengxing and Lou, Tao},
+  booktitle = {2015 12th Web Information System and Application Conference (WISA)},
+  title     = {A Collaborative Filtering Algorithm of Selecting Neighbors Based on User Profiles and Target Item},
+  year      = {2015},
+  pages     = {9-14},
+  doi       = {10.1109/WISA.2015.51},
+}
+
+@Book{aggarwal2016recommender,
+  author    = {Aggarwal, Charu C and others},
+  publisher = {Springer},
+  title     = {Recommender systems},
+  year      = {2016},
+  volume    = {1},
+}
+
+@Article{romero2007educational,
+  author    = {Romero, Cristobal and Ventura, Sebastian},
+  journal   = {Expert systems with applications},
+  title     = {Educational data mining: A survey from 1995 to 2005},
+  year      = {2007},
+  number    = {1},
+  pages     = {135--146},
+  volume    = {33},
+  publisher = {Elsevier},
+}
+
+@Article{Marino2010,
+  author  = {Olga Marino and Gilbert Paquette},
+  journal = {Procedia Computer Science},
+  title   = {A competency—driven advisor system for multi-actor learning environments},
+  year    = {2010},
+  issn    = {1877-0509},
+  note    = {Proceedings of the 1st Workshop on Recommender Systems for Technology Enhanced Learning (RecSysTEL 2010)},
+  number  = {2},
+  pages   = {2871-2876},
+  volume  = {1},
+  doi     = {https://doi.org/10.1016/j.procs.2010.08.013},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1877050910003261},
+}
+
+@Article{Sicilia2010,
+  author  = {Miguel-Ángel Sicilia and Elena García-Barriocanal and Salvador Sánchez-Alonso and Cristian Cechinel},
+  journal = {Procedia Computer Science},
+  title   = {Exploring user-based recommender results in large learning object repositories: the case of MERLOT},
+  year    = {2010},
+  issn    = {1877-0509},
+  note    = {Proceedings of the 1st Workshop on Recommender Systems for Technology Enhanced Learning (RecSysTEL 2010)},
+  number  = {2},
+  pages   = {2859-2864},
+  volume  = {1},
+  doi     = {https://doi.org/10.1016/j.procs.2010.08.011},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1877050910003248},
+}
+
+@InProceedings{lu2004personalized,
+  author       = {Lu, Jie},
+  booktitle    = {International Conference on Information Technology and Applications},
+  title        = {A personalized e-learning material recommender system},
+  year         = {2004},
+  organization = {Macquarie Scientific Publishing},
+}
+
+@InProceedings{jawaheer2010comparison,
+  author    = {Jawaheer, Gawesh and Szomszor, Martin and Kostkova, Patty},
+  booktitle = {proceedings of the 1st international workshop on information heterogeneity and fusion in recommender systems},
+  title     = {Comparison of implicit and explicit feedback from an online music recommendation service},
+  year      = {2010},
+  pages     = {47--51},
+}
+
+@InProceedings{oard1998implicit,
+  author       = {Oard, Douglas W and Kim, Jinmook and others},
+  booktitle    = {Proceedings of the AAAI workshop on recommender systems},
+  title        = {Implicit feedback for recommender systems},
+  year         = {1998},
+  organization = {WoUongong},
+  pages        = {81--83},
+  volume       = {83},
+}
+
+@Book{bligh1998s,
+  author    = {Bligh, Donald A},
+  publisher = {Intellect books},
+  title     = {What's the Use of Lectures?},
+  year      = {1998},
+}
+
+@InCollection{gerhard2015vorlesung,
+  author    = {Gerhard, David and Heidkamp, Paula and Spinner, Alexandra and Sommer, Bianca and Sprick, Anika and Simonsmeier, Bianca A and Schneider, Michael},
+  booktitle = {Gute Hochschullehre: Eine evidenzbasierte Orientierungshilfe},
+  publisher = {Springer},
+  title     = {Vorlesung},
+  year      = {2015},
+  pages     = {13--38},
+}
+
+@Article{schmidt2015use,
+  author    = {Schmidt, Henk G and Wagener, Stephanie L and Smeets, Guus ACM and Keemink, Lianne M and van der Molen, Henk T},
+  journal   = {Health Professions Education},
+  title     = {On the use and misuse of lectures in higher education},
+  year      = {2015},
+  number    = {1},
+  pages     = {12--18},
+  volume    = {1},
+  publisher = {Elsevier},
+}
+
+@InBook{Ngo2009,
+  author    = {Ngo, Chong-Wah and Wang, Feng},
+  pages     = {3320--3324},
+  publisher = {Springer US},
+  title     = {Video Summarization},
+  year      = {2009},
+  address   = {Boston, MA},
+  isbn      = {978-0-387-39940-9},
+  booktitle = {Encyclopedia of Database Systems},
+  doi       = {10.1007/978-0-387-39940-9_1026},
+  url       = {https://doi.org/10.1007/978-0-387-39940-9_1026},
+}
+
+@InProceedings{KiniM.2019,
+  author    = {Kini M., Mahesh and Pai, Karthik},
+  booktitle = {2019 Innovations in Power and Advanced Computing Technologies (i-PACT)},
+  title     = {A Survey on Video Summarization Techniques},
+  year      = {2019},
+  pages     = {1-5},
+  volume    = {1},
+  doi       = {10.1109/i-PACT44901.2019.8960003},
+}
+
+@InProceedings{Bora2018,
+  author    = {Bora, Amit and Sharma, Shanu},
+  booktitle = {2018 International Conference on Advances in Computing, Communication Control and Networking (ICACCCN)},
+  title     = {A Review on Video Summarization Approcahes : Recent Advances and Directions},
+  year      = {2018},
+  pages     = {601-606},
+  doi       = {10.1109/ICACCCN.2018.8748574},
+}
+
+@Article{Hou2012,
+  author  = {Hou, Xiaodi and Harel, Jonathan and Koch, Christof},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  title   = {Image Signature: Highlighting Sparse Salient Regions},
+  year    = {2012},
+  number  = {1},
+  pages   = {194-201},
+  volume  = {34},
+  doi     = {10.1109/TPAMI.2011.146},
+}
+
+@Book{kuhn2016interessengetriebene,
+  author    = {K{\"u}hn, Benjamin},
+  publisher = {KIT Scientific Publishing},
+  title     = {Interessengetriebene audiovisuelle Szenenexploration},
+  year      = {2016},
+  volume    = {22},
+}
+
+@Article{Hoffman1997,
+  author  = {Donald D Hoffman and Manish Singh},
+  journal = {Cognition},
+  title   = {Salience of visual parts},
+  year    = {1997},
+  issn    = {0010-0277},
+  number  = {1},
+  pages   = {29-78},
+  volume  = {63},
+  doi     = {https://doi.org/10.1016/S0010-0277(96)00791-3},
+  url     = {https://www.sciencedirect.com/science/article/pii/S0010027796007913},
+}
+
+@InProceedings{AlMousa2018,
+  author    = {AlMousa, Mohannad and Benlamri, Rachid and Khoury, Richard},
+  booktitle = {2018 6th International Conference on Multimedia Computing and Systems (ICMCS)},
+  title     = {NLP-Enriched Automatic Video Segmentation},
+  year      = {2018},
+  pages     = {1-6},
+  doi       = {10.1109/ICMCS.2018.8525880},
+}
+
+@InProceedings{Kota2021,
+  author    = {Kota, Bhargava Urala and Stone, Alexander and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {2020 25th International Conference on Pattern Recognition (ICPR)},
+  title     = {Automated Whiteboard Lecture Video Summarization by Content Region Detection and Representation},
+  year      = {2021},
+  pages     = {10704-10711},
+  doi       = {10.1109/ICPR48806.2021.9412386},
+}
+
+@InProceedings{Vimalaksha2018,
+  author    = {Vimalaksha, Anusha and Vinay, Siddarth and Prekash, Abhijit and Kumar, N. S.},
+  booktitle = {2018 IEEE Tenth International Conference on Technology for Education (T4E)},
+  title     = {Automated Summarization of Lecture Videos},
+  year      = {2018},
+  pages     = {126-129},
+  doi       = {10.1109/T4E.2018.00034},
+}
+
+@InProceedings{Xu2019,
+  author    = {Xu, Fei and Davila, Kenny and Setlur, Srirangaraj and Govindaraju, Venu},
+  booktitle = {2019 International Conference on Document Analysis and Recognition (ICDAR)},
+  title     = {Content Extraction from Lecture Video via Speaker Action Classification Based on Pose Information},
+  year      = {2019},
+  pages     = {1047-1054},
+  doi       = {10.1109/ICDAR.2019.00171},
+}
+
+@Article{pedregosa2011scikit,
+  author    = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others},
+  journal   = {the Journal of machine Learning research},
+  title     = {Scikit-learn: Machine learning in Python},
+  year      = {2011},
+  pages     = {2825--2830},
+  volume    = {12},
+  publisher = {JMLR. org},
+}
+
+@Online{jupiter,
+  author  = {Fernando Pérez and Brian Granger},
+  title   = {The Jupyter Notebook},
+  url     = {https://jupyter.org/},
+  urldate = {2021-10-13},
+}
+
+@Online{pycharm,
+  author  = {Jetbrains},
+  title   = {The Python IDE for Professional Developers},
+  url     = {https://www.jetbrains.com/pycharm/},
+  urldate = {2021-10-13},
+}
+
+@Online{panda,
+  author  = {The Pandas Project},
+  title   = {Package overview},
+  url     = {https://pandas.pydata.org/pandas-docs/stable/getting_started/overview.html},
+  urldate = {2021-10-14},
+}
+
+@InProceedings{Culjak2012,
+  author    = {Culjak, Ivan and Abram, David and Pribanic, Tomislav and Dzapo, Hrvoje and Cifrek, Mario},
+  booktitle = {2012 Proceedings of the 35th International Convention MIPRO},
+  title     = {A brief introduction to OpenCV},
+  year      = {2012},
+  pages     = {1725-1730},
+}
+
+@Article{Hug2020,
+  author    = {Nicolas Hug},
+  journal   = {Journal of Open Source Software},
+  title     = {Surprise: A Python library for recommender systems},
+  year      = {2020},
+  number    = {52},
+  pages     = {2174},
+  volume    = {5},
+  doi       = {10.21105/joss.02174},
+  publisher = {The Open Journal},
+  url       = {https://doi.org/10.21105/joss.02174},
+}
+
+@Online{numpy,
+  author  = {NumPy developers},
+  title   = {NumPy},
+  url     = {https://www.numpy.org/},
+  urldate = {2021-10-13},
+}
+
+@Online{scipy,
+  author  = {The SciPy community},
+  title   = {SciPy community},
+  url     = {https://docs.scipy.org/doc/scipy/reference/tutorial/general.html},
+  urldate = {2021-10-13},
+}
+
+@Online{seaborn,
+  author  = {Michael Waskom},
+  title   = {An introduction to seaborn},
+  url     = {https://seaborn.pydata.org/introduction.html},
+  urldate = {2021-10-13},
+}
+
+@Online{matplotlib,
+  author  = {Matplotlib development team},
+  title   = {Matplotlib: Visualization with Python},
+  url     = {https://matplotlib.org/},
+  urldate = {2021-10-13},
+}
+
+@Online{opencv,
+  author  = {Python Software Foundation},
+  title   = {The Python Tutorial},
+  url     = {https://opencv.org/},
+  urldate = {2021-10-13},
+}
+
+@Online{moviepy,
+  title   = {User Guide},
+  url     = {https://zulko.github.io/moviepy/},
+  urldate = {2021-10-13},
+}
+
+@Online{scikit-learn,
+  title   = {scikit-learnMachine Learning in Python},
+  url     = {https://scikit-learn.org/stable/index.html},
+  urldate = {2021-10-13},
+}
+
+@Online{kera,
+  title   = {Keras: simple, flexibel, powerful},
+  url     = {https://keras.io/},
+  urldate = {2021-10-13},
+}
+
+@Online{ffmpeg,
+  title   = {A complete, cross-platform solution to record, convert and stream audio and video.},
+  url     = {https://www.ffmpeg.org/},
+  urldate = {2021-10-13},
+}
+
+@Online{svd,
+  title   = {How you can build simple recommender systems with Surprise},
+  url     = {https://towardsdatascience.com/how-you-can-build-simple-recommender-systems-with-surprise-b0d32a8e4802},
+  urldate = {2021-10-27},
+}
+
+@Article{jadon2019video,
+  author  = {Jadon, Shruti and Jasim, Mahmood},
+  journal = {arXiv preprint arXiv:1910.04792},
+  title   = {Video summarization using keyframe extraction and video skimming},
+  year    = {2019},
+}
+
+@Online{cross,
+  title   = {A Gentle Introduction to k-fold Cross-Validation},
+  url     = {https://machinelearningmastery.com/k-fold-cross-validation/},
+  urldate = {2021-10-30},
+}
+
+@Online{csv,
+  title   = {CSV File Reading and Writing},
+  url     = {https://docs.python.org/3/library/csv.html},
+  urldate = {2021-10-13},
+}
+
+@Article{Koren2009,
+  author  = {Koren, Yehuda and Bell, Robert and Volinsky, Chris},
+  journal = {Computer},
+  title   = {Matrix Factorization Techniques for Recommender Systems},
+  year    = {2009},
+  number  = {8},
+  pages   = {30-37},
+  volume  = {42},
+  doi     = {10.1109/MC.2009.263},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
