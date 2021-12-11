@@ -17,7 +17,5 @@ def main():
     files = load_video_records(path)
     for file in files:
         detectScenes(file, videoType1)
-        ##generate_users_and_data(os.path.abspath("test/rec/"))
-
 if __name__ == '__main__':
     main()
