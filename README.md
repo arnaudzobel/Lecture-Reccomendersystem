@@ -1,7 +1,6 @@
 # Description
 This repository performs the automated segmentation of the lecture recordings. Furthermore, it 
-implements a recommender system for the learning units of online teaching based
-on the learning units created by the segmentation.
+implements a recommender system for the learning units of online teaching.
 # Requirements
 python 3.8.8
 Libraries: see requirements.txt
