@@ -1,12 +1,12 @@
 # Description
 This repository performs the automated segmentation of the lecture recordings. Furthermore, it 
 implements a recommender system for the learning units of online teaching.
-# Requirements
+## Requirements
 ```
 python 3.8.8
 Libraries: see requirements.txt
 ```
-# Run the segmentation tool
+## Run the segmentation tool
 ```
 python main.py PATH_TO_RECORDINGS WHITEBOARD_PROF_IN_FULL_SCREEN
 ```
@@ -19,6 +19,6 @@ This parameter should be set to True if the recordings contains whitebaords scen
 This type of video should be in a separate path.<br/>
 This tool can also be run with an IDE like PyCharm
 
-# Run the recommender system
+## Run the recommender system
 Jupiter Notebooks are provided for the recommender system.
 The Jupiter Notebook package(version 6.3.0) of anaconda3 was used for implementation 
