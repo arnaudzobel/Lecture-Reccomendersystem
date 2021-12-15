@@ -16,7 +16,7 @@ For each lecture analysed, a result folder is created in the same path.
 
 The parameter WHITEBOARD_PROF_IN_FULL_SCREEN is optional.
 This parameter should be set to True if the recordings contains whitebaords scenes with professor in full screen.
-This type of video should be in a separate path.
+This type of video should be in a separate path.<br/>
 This tool can also be run with an IDE like PyCharm
 
 # Run the recommender system
