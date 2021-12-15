@@ -4,7 +4,8 @@ implements a recommender system for the learning units of online teaching.
 ## Requirements
 ```
 python 3.8.8
-Libraries: see requirements.txt
+Libraries for segmentation tool: see requirements_tool.txt
+Libraries for recommender system: see requirements_anaconda.txt
 ```
 ## Run the segmentation tool
 ```
@@ -21,4 +22,5 @@ This tool can also be run with an IDE like PyCharm
 
 ## Run the recommender system
 Jupiter Notebooks are provided for the recommender system.
-The Jupiter Notebook package(version 6.3.0) of anaconda3 was used for implementation 
+This should be run in an anconda3 environment. see requirements
+
