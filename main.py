@@ -1,11 +1,10 @@
 import os
+import sys
 from sceneDetector import detectScenes
 from generateLMSinteractiondata import generate_users_and_data
-#path = sys.argv[1]
-#videoType1 = sys.argv[2]
+path = sys.argv[1]
+WHITEBOARD_PROF_IN_FULL_SCREEN = sys.argv[2]
 
-path = "test"
-videoType1 = True
 def load_video_records(path):
     files = []
     for file in os.listdir(path):
@@ -16,6 +15,6 @@ def load_video_records(path):
 def main():
     files = load_video_records(path)
     for file in files:
-        detectScenes(file, videoType1)
+        detectScenes(file, WHITEBOARD_PROF_IN_FULL_SCREEN)
 if __name__ == '__main__':
     main()
