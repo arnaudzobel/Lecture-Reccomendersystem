@@ -15445,8 +15445,7 @@ genauigkeit für den vorliegenden Datensatz nicht geeignet ist.
  Was die Vorhersagegenauigkeit betrifft, lieferte der modellbasierte Ansatz
  das beste Ergebnis.
  Für den Fall einer größeren Anzahl an Objekten als an Benutzern lieferte
- auch der objektbasierte Ansatz ein vergleichbares Ergebnis mit dem modellbasier
-ten Ansatz.
+ auch der objektbasierte Ansatz ein vergleichbares Ergebnis.
  Werden die Performanz und die Vorhersagegenauigkeit betrachtet, ist der
  objektbasierte Ansatz besser für den verwendeten Datensatz geeignet.
  Außerdem sorgt dieser Ansatz für mehr Vielfalt hinsichtlich des Empfehlungserge

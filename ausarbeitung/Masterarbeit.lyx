@@ -722,14 +722,14 @@ In der vorliegenden Arbeit werden Ansätze zur automatisierten Zerlegung
  von Vorlesungsaufzeichnungen untersucht, um auf diese Weise passende Lerneinhei
 ten für die Onlinelehre zu erstellen.
  Des Weiteren wird auf Basis der erstellten Lerneinheiten ein Empfehlungssystem
- für die Lerneinheiten der Online-Lehre realisiert.
+ für die Lerneinheiten der Onlinelehre realisiert.
  
 \end_layout
 
 \begin_layout Standard
 Der Lösungsprozess für die automatisierte Zerlegung der Aufzeichnungen wird
  in vier Hauptschritte unterteilt.
- Im ersten Schritt werden audiovisuelle Features wie das Fragehistogramm
+ Im ersten Schritt werden audiovisuelle Features wie das Farbehistogramm
  und die akustische Salienz extrahiert.
  Im zweiten Schritt werden diese Features analysiert, um Szeneänderungen
  zu erkennen.
@@ -741,8 +741,8 @@ Der Lösungsprozess für die automatisierte Zerlegung der Aufzeichnungen wird
 
 \begin_layout Standard
 Für die Entwicklung des Empfehlungssystems werden die klassischen Lösungsschritt
-e für ein Problem aus dem Bereich des maschinellen Lernens nach dem Standard-Vor
-gehensmodell CRISP-DM verwendet.
+e für ein Problem aus dem Bereich des maschinellen Lernens nach dem Vorgehensmod
+ell CRISP-DM verwendet.
  Das Empfehlungssystem basiert auf dem Verfahren des kollaborativen Filterns.
  In diesem Sinne wird mit unterschiedlichen Ansätzen des kollaborativen
  Filterns experimentiert, um schließlich den geeignetsten auszuwählen.
@@ -756,56 +756,47 @@ Abstract (Englisch)
 \end_layout
 
 \begin_layout Standard
-The number of online lectures has risen very sharply as a result of the
- Corona pandemic.
- Many universities have converted traditional face-to-face teaching to digital
- format.
+The number of online lectures has risen sharply because of the COVID-19
+ pandemic.
+ Many universities have converted traditional face-to-face teaching to a
+ digital format.
  This gives students an advantage in terms of time and space.
- Online teaching brings new impulses, but requires more effort.
- Preparing a lecture didactically for the online format is time-consuming.
- In addition, individual learning is not supported.
+ Online teaching brings new impulses but requires more effort.
+ Preparing a didactic lecture for the online format is time-consuming.
+ Additionally, individualized learning is not supported.
 \end_layout
 
 \begin_layout Standard
-In this thesis, approaches for automated segmentation of lecture recordings
- are investigated in order to create suitable learning units for online
- teaching.
- Furthermore, a recommendation system for the learning units of online teaching
- is implemented based on the created learning units.
+In this thesis, approaches to automated segmentation of lecture recordings
+ to create suitable learning units for online teaching are investigated.
+ Furthermore, a recommendation system is implemented for the created learning
+ units.
+ 
 \end_layout
 
 \begin_layout Standard
-The solution process for the automated decomposition of the recordings is
- divided into 4 main steps.
- In the first step, audiovisual features such as color histogram and acoustic
- saliency are extracted.
- In the second step, these features are analyzed to detect scene changes.
- In the third step, scenes are classified using a convolutional neural network
- model (CNN).
+The process for the automated decomposition of the recordings is divided
+ into four steps.
+ In the first step, audiovisual features such as the color histogram and
+ acoustic saliency map are extracted.
+ In the second step, these features are analyzed to detect scene changes
+ and interesting scene changes.
+ In the third step, scenes are classified using the convolutional neural
+ network (CNN) model.
  In the last step, the input video is sliced using the FFmpeg program.
  The advantage of this solution is that it does not require any knowledge
  about the content of the video for the segmentation.
 \end_layout
 
 \begin_layout Standard
-For the development of the recommender system, the classical solution steps
- for a machine learning problem according to Cross Industry Standard Process
- for Data Mining (CRISP-DM)
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-symbol "CRISP-DM"
-description "Cross Industry Standard Process for Data Mining"
-literal "false"
-
-\end_inset
-
- are used.
+To develop the recommender system, the classical solution steps for a machine
+ learning problem according to Industry Standard Process for Data Mining
+ (CRISP-DM) were used.
  The recommender system is based on collaborative filtering.
- Different approaches of collaborative filtering are experimented and the
- more suitable one is selected.
- The recommender system is evaluated using cross validation.
- For this purpose, datasets are generated which consists of user interaction
- data.
+ Various approaches to collaborative filtering were tested, and the most
+ suitable one was selected.
+ The recommender system was evaluated using cross-validation.
+ For this purpose, datasets that consist of user interaction data were generated.
  
 \end_layout
 
@@ -1062,7 +1053,7 @@ noprefix "false"
  In der ersten Phase werden Forschungsfragen festgelegt.
  In der zweiten Phase findet die Organisation der Analyse statt.
  Hier werden die verwendeten Literaturdatenbanken definiert.
- In der dritten Phase wird die eigent- liche Literatursuche durchgeführt.
+ In der dritten Phase wird die eigentliche Literatursuche durchgeführt.
  Hierbei kommen die Methoden 
 \emph on
 Forward Search
@@ -1143,19 +1134,19 @@ Nachdem die Forschungsfragen definiert sind, werden in der zweiten Phasen
 \end_layout
 
 \begin_layout Itemize
-ScienceDirect: eine digitale Forschungsdatenbank mit wissenschaftlichen
+ScienceDirect: Eine digitale Forschungsdatenbank mit wissenschaftlichen
  und medizinischen Veröffentlichungen.
  
 \end_layout
 
 \begin_layout Itemize
-Springer Link: eine große digitale Bibliothek mit Texten aus den Bereichen
+Springer Link: Eine große digitale Bibliothek mit Texten aus den Bereichen
  Engineering, Biomedizin, Sozialwissenschaft etc.
  
 \end_layout
 
 \begin_layout Itemize
-IEEE Xplore: eine digitale Forschungsdatenbank für die Suche nach Zeitschriften,
+IEEE Xplore: Eine digitale Forschungsdatenbank für die Suche nach Zeitschriften,
  Artikeln, Konferenzberichten und technischen Normen aus den Bereichen Informati
 k, Elektrotechnik und Elektronik.
  
@@ -1170,7 +1161,7 @@ In der dritten Phase der Recherche findet die eigentliche Literatursuche
  Schlüsselwörter abzuleiten.
  Anhand dieser wurde dann eine Suche in den oben genannten Datenbanken durchgefü
 hrt.
- Bei der ersten Suche mit deut- schen Schlüsselwörtern ergab sich eine niedrige
+ Bei der ersten Suche mit deutschen Schlüsselwörtern ergab sich eine niedrige
  Trefferquote, sodass der Schluss nahelag, dass diese Sprache für eine Recherche
  der betreffenden Themen nicht geeignet ist.
  In diesem Sinne wurde für die weitere Suche auf das Englische zurückgegriffen.
@@ -1191,11 +1182,11 @@ noprefix "false"
  Dies lässt sich damit erklären, dass viele wissenschaftliche Arbeiten auf
  Englisch publiziert werden.
  Die Trefferquote in IEEE Xplore ist im Vergleich zu den anderen beiden
- Daten- banken deutlich geringer.
+ Datenbanken deutlich geringer.
  Eine Erklärung dafür könnte sein, dass sich IEEE Xplore auf wissenschaftliche
  Publikationen beschränkt.
- Bei Springer Link ist die Treffer- quote hingegen hoch, jedoch ist der
- Anteil an wissenschaftlichen Artikeln gering.
+ Bei Springer Link ist die Trefferquote hingegen hoch, jedoch ist der Anteil
+ an wissenschaftlichen Artikeln gering.
  Um relevante Texte zu extrahieren, wurden die Schlüsselwörter nun in geeigneter
  Weise mit den logischen Operatoren ‚AND‘ und ‚OR‘ verknüpft.
  Des Weiteren wurden nachfolgende Filter verwendet:
@@ -3710,7 +3701,7 @@ Dan Fu et al.
  präsentieren einen Ansatz zur Analyse von Vorlesungsvideos basierend auf
  dem Inhalt.
  Die Autoren verwenden das Verfahren der Schlüsselbildextraktion, um Input-Video
-s zu seg- mentieren.
+s zu segmentieren.
  Die Frames werden in bestimmten Zeitintervallen gelesen.
  Mithilfe einer Anwendung der Optical-Character-Recognition 
 \begin_inset CommandInset nomenclature
@@ -3736,7 +3727,7 @@ Automatic-Speech-Recognition (ASR)- Techniken, um textuelle Features aus
  Auf Grundlage der gefundenen Schlüsselwörter, werden Weblinks, Bildlinks
  und YouTube-Links bereitgestellt.
  Benutzer können über die bereitgestellten Links auf die entsprechenden
- Videos zugreifen und eine Bewertung für das angesehene Video abge- ben.
+ Videos zugreifen und eine Bewertung für das angesehene Video abgeben.
  Auf Basis dieser Bewertung werden dann Empfehlungen generiert.
  Das Empfehlungssystem beruht auf der Pearson-Korrelation und dem Cosinus-Ähnlic
 hkeitsmaß 
@@ -3779,8 +3770,8 @@ literal "false"
 
 \begin_layout Standard
 Harshit Jain und Anika schlagen eine Methode zur Entwicklung eines MOOC-Empfehlu
-ngssystems vor, wobei sie von Data- Mining- Techniken wie Random Forest,
- Classification Tree und K-Nearest Neighbors Gebrauch machen.
+ngssystems vor, wobei sie von Data-Mining-Techniken wie Random Forest, Classific
+ation Tree und K-Nearest Neighbors Gebrauch machen.
  Zunächst werden die Benutzer anhand ihrer Aktivitätsprotokolle auf zwei
  Kategorien aufgeteilt: aktive und passive Lernende.
  Nach der Anwendung von Data Mining Ansätzen wird die Kursempfehlung separat
@@ -3854,8 +3845,8 @@ literal "false"
 
 \end_inset
 
- wird ein Ansatz zur Segmentierung von Lernvideos unter Verwendung der natürli-
- chen Sprachverarbeitung (NLP
+ wird ein Ansatz zur Segmentierung von Lernvideos unter Verwendung der natürlich
+en Sprachverarbeitung (NLP
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 symbol "NLP"
@@ -3865,15 +3856,15 @@ literal "false"
 \end_inset
 
 )) gezeigt.
- Ziel dabei ist es, entscheidende linguistische Features aus dem Vi- deo
- zu extrahieren.
+ Ziel dabei ist es, entscheidende linguistische Features aus dem Video zu
+ extrahieren.
  Die Autoren nutzen die visuellen, die Audio- und die textuellen Features,
  um zeitliche Feature-Vektoren zur erstellen, die der verbesserten Segmentierung
  dienen.
  Anschließend wird NLP-Kosinusähnlichkeit auf die Cluster angewendet, um
  verschiedene Themen in Videos zu identifizieren.
- Für die textuelle und die Audio- Feature-Extraktion nutzen die Autoren
- ASR und OCR
+ Für die textuelle und die Audio-Feature-Extraktion nutzen die Autoren ASR
+ und OCR
 \end_layout
 
 \begin_layout Standard
@@ -3885,9 +3876,9 @@ literal "false"
 
 \end_inset
 
- wird eine Methode zur Zusammenfassung von Whiteboard- Videos vorgeschlagen,
- bei der Feature-Repräsentationen von erkannten handschriftlichen Inhaltsre-
- gionen extrahiert werden, um die eindeutigen Inhalte zu bestimmen.
+ wird eine Methode zur Zusammenfassung von Whiteboard-Videos vorgeschlagen,
+ bei der Feature-Repräsentationen von erkannten handschriftlichen Inhaltsregione
+n extrahiert werden, um die eindeutigen Inhalte zu bestimmen.
  Dabei wird das Histogramm von Gradienten verwendet, um die erkannten Regionen
  darzustellen.
 \end_layout
@@ -3917,14 +3908,13 @@ literal "false"
 \end_inset
 
 wird eine Methode zur Extraktion von Inhalten eines Vorlesungsvideos unter
- Ver- wendung der Sprecher-Aktionen gezeigt.
+ Verwendung der Sprecher-Aktionen gezeigt.
  Dabei wird jedes Vorlesungsvideo in kleine zeitliche Einheiten unterteilt,
  die als Aktionssegmente bezeichnet werden.
- Zur Analyse der Pau- sen des Sprechers werden Körper- und Handskelett-Daten
- extrahiert, um daraus bewe- gungsbasierte Merkmale für jedes Segment zu
- berechnen.
- Danach wird die dominan- te Sprecher-Aktion jedes Segments anhand des Random-
- Forest-Verfahrens und des bewegungsbasierten Merkmals klassifiziert.
+ Zur Analyse der Pausen des Sprechers werden Körper- und Handskelett-Daten
+ extrahiert, um daraus bewegungsbasierte Merkmale für jedes Segment zu berechnen.
+ Danach wird die dominante Sprecher-Aktion jedes Segments anhand des Random-Fore
+st-Verfahrens und des bewegungsbasierten Merkmals klassifiziert.
 \end_layout
 
 \begin_layout Chapter
@@ -4304,11 +4294,8 @@ Der Vorteil von Videotechniken besteht darin, dass sie sowohl zur Verarbeitung
  In der Literatur wird unterschieden zwischen akustischer Salienz, die ein
  hörbares Ereignis darstellt, und visueller Salienz, die den sichtbaren
  Anteil beschreibt.
- Durch Salienz wird Aufmerksamkeit erzeugt und 
-\end_layout
-
-\begin_layout Standard
-der Fokus auf das Ereignis gelenkt.
+ Durch Salienz wird Aufmerksamkeit erzeugt und der Fokus auf das Ereignis
+ gelenkt.
  Die akustische Salienz kann z.
  B.
  durch eine starke Änderung im Audio-Spektrum festgestellt werden.
@@ -4340,7 +4327,10 @@ literal "false"
 
 \end_inset
 
-) auf Grauwert-Bilder angewendet
+) auf Grauwert-Bilder angewendet.
+ Außer der Salienz werden im Prozess der audiovisuellen Analyse typischerweise
+ Merkmale wie Farbe, Schattierung, Form, Bewegung, Textur und Kontext genutzt.
+ In vielen Fällen können Objekte erfolgreich anhand ihrer Form erkannt werden
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Hou2012,kuhn2016interessengetriebene"
@@ -4349,9 +4339,6 @@ literal "false"
 \end_inset
 
 .
- Außer der Salienz werden im Prozess der audiovisuellen Analyse typischerweise
- Merkmale wie Farbe, Schattierung, Form, Bewegung, Textur und Kontext genutzt.
- In vielen Fällen können Objekte erfolgreich anhand ihrer Form erkannt werden.
 \end_layout
 
 \begin_layout Chapter
@@ -4845,15 +4832,7 @@ literal "false"
 
 \end_inset
 
- wird das Empfehlungsproblem wie folgt beschrieben 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "aggarwal2016recommender"
-literal "false"
-
-\end_inset
-
-:
+ wird das Empfehlungsproblem wie folgt beschrieben :
 \end_layout
 
 \begin_layout Standard
@@ -4998,7 +4977,6 @@ literal "false"
 \end_inset
 
 .
- ].
  In den folgenden Abschnitten wird auf einige solche Ansätze eingegangen.
 \end_layout
 
@@ -5017,7 +4995,8 @@ literal "false"
 
 \end_inset
 
-.Dieser Erfolg lässt sich damit erklären, dass die Technologie kein Wissen
+.
+ Dieser Erfolg lässt sich damit erklären, dass die Technologie kein Wissen
  über das jeweilige Einsatzgebiet erfordert.
  Generell werden zwei Arten des kollaborativen Filterns unterschieden: das
  memorybasierte (memory-based) und das modellbasierte (model-based) Verfahren
@@ -5918,8 +5897,8 @@ Wie in der vorhergehenden Gleichung dargestellt, erfolgt die Messung der
 \begin_inset Formula $j$
 \end_inset
 
- wie folgt: Zunächst werden beide Objekte als Vektoren dargestellt, um dann
- die Kosinusähnlichkeit der Vektoren zu berechnen, wobei 
+ wie folgt: beide Objekte werden als Vektoren dargestellt, um dann die Kosinusäh
+nlichkeit der Vektoren zu berechnen, wobei 
 \begin_inset Formula $r_{u,i}$
 \end_inset
 
@@ -5945,7 +5924,7 @@ Im vierten Schritt des Algorithmus wird die Bewertung
 \begin_inset Formula $k$
 \end_inset
 
-nächsten Nachbarn aus der vorherigen Berechnung herangezogen.
+ nächsten Nachbarn aus der vorherigen Berechnung herangezogen.
  Als Nachbarn werden Objekte bezeichnet, die eine starke Ähnlichkeit zu
  dem Zielobjekt Objekt 
 \begin_inset Formula $i$
@@ -6007,15 +5986,7 @@ n kollaborativen Filterns darin, Benutzer zu finden, die ein ähnliches Bewertun
 sverhalten wie der aktive Benutzer zeigen, um daraufhin ihre Bewertungen
  für die Vorhersage der Bewertung des aktiven Benutzers zu verwenden.
  Dieser Ansatz beruht auf der Grundannahme, dass Benutzer, die unterschiedliche
- Objekte in ähnlicher Weise bewerten, dieselben Interessen haben 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "ricci2011introduction"
-literal "false"
-
-\end_inset
-
-.
+ Objekte in ähnlicher Weise bewerten, dieselben Interessen haben.
  Um dem aktiven Benutzer eine geeignete Empfehlung vorschlagen zu können,
  findet das System die k ähnlichsten Nutzer im System, um ihm daraufhin
  diejenigen Objekte mit der höchsten Bewertung zu empfehlen 
@@ -6089,7 +6060,8 @@ literal "false"
 
 \end_inset
 
-.Die Matrix-Faktorisierung, die im Kontext von Empfehlungssystemen häufig
+.
+ Die Matrix-Faktorisierung, die im Kontext von Empfehlungssystemen häufig
  auch Singular-Value-Decomposition (SVD) genannt wird, wird formal beschrieben
  als eine Matrix A von Bewertungen, die in ein Produkt von Matrizen 
 \begin_inset Formula $A=U\sum V^{T}$
@@ -6099,7 +6071,7 @@ literal "false"
 \begin_inset Formula $\sum V^{T}$
 \end_inset
 
- T die latenten Faktoren für die Objekte und 
+ die latenten Faktoren für die Objekte und 
 \begin_inset Formula $U$
 \end_inset
 
@@ -6132,7 +6104,7 @@ literal "false"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -7414,15 +7386,7 @@ Evaluation der Empfehlungssysteme
 
 \begin_layout Standard
 Die Evaluierung von Empfehlungssysteme und ihre Algorithmen wird zu einer
- herausfordernde Aufgabe
-\begin_inset CommandInset citation
-LatexCommand cite
-key "herlocker2004evaluating"
-literal "false"
-
-\end_inset
-
-.
+ herausfordernde Aufgabe.
  So kann ein Algorithmus bei einem Datensatz gut und bei einem anderen schlecht
  funktionieren.
  Außerdem können Empfehlungssysteme für unterschiedliche Zwecke verwendet
@@ -7432,7 +7396,9 @@ literal "false"
  als Metrik verwendet, um die Qualität des Empfehlungssystems zu messen.
  Heutzutage liegt der Fokus unter anderem auf der Benutzerzufriedenheit.
  Hierbei wird gemessen, wie oft ein System seine Nutzer zu einer falschen
- Entscheidung führt 
+ Entscheidung führt .
+ Diese beiden Evaluationsmethoden werden auch Online- und Offline-Methoden
+ genannt 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "herlocker2004evaluating"
@@ -7441,8 +7407,6 @@ literal "false"
 \end_inset
 
 .
- Diese beiden Evaluationsmethoden werden auch Online- und Offline-Methoden
- genannt.
 \end_layout
 
 \begin_layout Standard
@@ -7475,15 +7439,7 @@ Genauigkeitsmetriken
 
 \begin_layout Standard
 Genauigkeitsmetriken messen, wie nah die vom Empfehlungssystem vorhergesagten
- Bewertungen an den tatsächlichen Benutzerbewertungen liegen 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "aggarwal2016recommender"
-literal "false"
-
-\end_inset
-
-.
+ Bewertungen an den tatsächlichen Benutzerbewertungen liegen.
  Diese Metriken werden von der Offline-Methode verwendet.
  Als Genauigkeitsmetriken fungieren der mittlere absolute Fehler (MAE
 \begin_inset CommandInset nomenclature
@@ -7529,7 +7485,16 @@ Der
 \begin_inset Formula $R_{u,i}$
 \end_inset
 
- geheim gehalten und wird der MAE mit der vorhergesagten Bewertung berechnet.
+ geheim gehalten und wird der MAE mit der vorhergesagten Bewertung berechnet
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "aggarwal2016recommender"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -7593,7 +7558,15 @@ noprefix "false"
 
 \end_inset
 
-).
+)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "herlocker2004evaluating"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -7840,7 +7813,7 @@ Empfehlungssystem im Vorlesungskontext
 \begin_layout Standard
 Empfehlungssysteme werden im E-Commerce-Bereich bereits erfolgreich eingesetzt.
  Obwohl die eingesetzten Methoden denjenigen des E-Learnings ähneln, sind
- mit 
+ mit einige Unterschiede zu benennen
 \begin_inset CommandInset citation
 LatexCommand cite
 key "romero2007educational"
@@ -7848,7 +7821,7 @@ literal "false"
 
 \end_inset
 
- einige Unterschiede zu benennen: 
+: 
 \end_layout
 
 \begin_layout Itemize
@@ -7913,7 +7886,15 @@ en: die Professoren und die Studierenden.
  Die zweite Benutzergruppe sind die Studierenden, die als die eigentlichen
  Endnutzer des Empfehlungssystems gelten können.
  Aufgrund ihrer aktiven Rolle bilden sie gleichzeitig einen zentralen Bestandtei
-l des Systems.
+l des Systems 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "romero2007educational"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -7999,10 +7980,7 @@ Die Online-Vorlesung
 \begin_layout Standard
 Unter dem Begriff Vorlesung wird eine Lehrveranstaltung verstanden, deren
  Zweck darin besteht, Studierende mittels eines Vortrags zu unterrichten
- [32].
- In traditionellen Vorlesungen steht der Dozent im vorderen Teil des Hörsaals,
- von wo er seinen Vortrag hält und Folien zeigt, während die Studierenden
- zuhören und sich Notizen machen 
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bligh1998s"
@@ -8010,7 +7988,8 @@ literal "false"
 
 \end_inset
 
-.In traditionellen Vorlesungen steht der Dozent im vorderen Teil des Hörsaals,
+.
+ In traditionellen Vorlesungen steht der Dozent im vorderen Teil des Hörsaals,
  von wo er seinen Vortrag hält und Folien zeigt, während die Studierenden
  zuhören und sich Notizen machen 
 \begin_inset CommandInset citation
@@ -8365,7 +8344,7 @@ Fault: Aufnahmefehler (schwarzes Bild)
 \end_layout
 
 \begin_layout Itemize
-Other: externe Programme, Text und Sonstiges 
+Other: Externe Programme, Text und Sonstiges 
 \end_layout
 
 \begin_layout Standard
@@ -8501,13 +8480,10 @@ learningDuration in %: Hierbei handelt es sich um die Nutzungsdauer der
 \end_layout
 
 \begin_layout Itemize
-numberOfPostsAboutScene: Dieser Wert gibt die Anzahl der Nachrichten wieder,
- die der Studierende während der Lerneinheit im Forum des LMS abgeschickt
- hat.
+numberOfPosts: Dieser Wert gibt die Anzahl der Nachrichten wieder, die der
+ Studierende während der Lerneinheit im Forum des LMS abgeschickt hat.
  Dabei wird angenommen, dass eine Lerneinheit bei mehr Nachrichten interessanter
  ist.
- • userId: Hierbei handelt es sich um eine eindeutige Nummer, die den Studierend
-en identifiziert.
 \end_layout
 
 \begin_layout Itemize
@@ -8562,7 +8538,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Umsetzungsprozess des Empfehlungssystems basiert auf CRISP-DM
+Lösungsprozess des Empfehlungssystems basiert auf CRISP-DM
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:Architektur-des-Empfehlungssyste"
@@ -8796,7 +8772,7 @@ noprefix "false"
 
 \end_inset
 
- 6.6 zeigt ein Beispiel für die objektbasierte Methode.
+ zeigt ein Beispiel für die objektbasierte Methode.
  In diesem Beispiel hat die Studentin alle Lerneinheiten angeschaut, während
  der Student bislang nur die Lerneinheiten 1 und 2 betrachtet hat.
  Da dieser Student die Lerneinheit 3 noch nicht angeschaut hat, wird ihm
@@ -8809,8 +8785,8 @@ Evaluation
 \end_layout
 
 \begin_layout Standard
-In Kapitel 4 wurde die Offline-Methode als geeignetes Verfahren für die
- Forschung und das Benchmarking beschrieben.
+In Kapitel 4 wurde die Offline-Evaluierung als geeignetes Verfahren für
+ die Forschung und das Benchmarking beschrieben.
  Da es in dieser Arbeit um die Durchführung von Experimenten geht, wird
  diese Methode verwendet.
  Dabei werden die entwickelten kollaborativen Algorithmen auf die generierten
@@ -9304,7 +9280,7 @@ literal "false"
 \begin_inset Text
 
 \begin_layout Plain Layout
-Scene classification
+Scene Classification
 \end_layout
 
 \end_inset
@@ -9756,8 +9732,11 @@ Visuelle Feature-Extraktion
 
 \begin_layout Standard
 Nachdem alle erforderlichen Bibliotheken in PyCharm importiert worden sind,
- werden im ersten Schritt des Prozesses der automatisierten Zerlegung der
- Vorlesungsaufzeichnungen die visuellen Features extrahiert.
+ werden im ersten Schritt des Prozesses der 
+\emph on
+automatisierten Zerlegung der Vorlesungsaufzeichnungen
+\emph default
+ die visuellen Features extrahiert.
  Dazu wird das Video-Verzeichnis aus den Programmargumenten extrahiert.
  In diesem Verzeichnis werden MP4-Dateien durchsucht und einzeln prozessiert.
  Die Datei wird mit der Methode 
@@ -9790,7 +9769,7 @@ Als Nächstes findet die visuelle Feature-Extraktion in einer While-Schleife
  50 % verkleinert.
  Im weiteren Verlauf wird zwischen zwei Arten von Vorlesungsvideos unterschieden.
  Die erste Art von Video enthält Whiteboard-Szenen und Aufnahmen des Professors,
- wobei das Whiteboard im Vollbild zu sehen ist.
+ wobei beide im Vollbild zu sehen sind.
 \end_layout
 
 \begin_layout Standard
@@ -9804,10 +9783,11 @@ literal "false"
 
 \end_inset
 
-),Der restliche Teil des Bildes wird ignoriert.
+) extrahiert wird.
+ Der restliche Teil des Bildes wird ignoriert.
  Das Ziel dieser Vorprozessierung ist es, störende Informationen aus dem
  Bild zu entfernen.
- Zur Extraktion dieser Region wird die Methode 
+ Zur Extraktion des ROI wird die Methode 
 \emph on
 getRegionOfInterest
 \emph default
@@ -9879,7 +9859,11 @@ name "fig:Unterschiedliche-Typen-von"
 
 \begin_layout Standard
 Im nächsten Schritt wird das Farbhistogramm des Bildes berechnet.
- Dafür wird die Methode calcHist der OpenCV-Bibliothek genutzt.
+ Dafür wird die Methode 
+\emph on
+calcHist
+\emph default
+ der OpenCV-Bibliothek genutzt.
  Anhand des Farbhistogramms wird der euklidische Abstand zwischen dem aktuellen
  Bild und den vorherigen Bildern berechnet.
  Dazu werden die Farbmomente dieser Bilder berechnet.
@@ -9951,8 +9935,15 @@ Audio-Feature-Extraktion
 \begin_layout Standard
 Als erster Schritt der Audio-Feature-Extraktion wird die Audiospur vom Eingangsv
 ideo getrennt.
- Dazu wird das Video mit der Methode VideoFileClip der Moviepy-Bibliothek
- ausgelesen, um daraufhin seine Audio-Spur mit der Methode write_audiofile
+ Dazu wird das Video mit der Methode 
+\emph on
+VideoFileClip
+\emph default
+ der Moviepy-Bibliothek ausgelesen, um daraufhin seine Audio-Spur mit der
+ Methode 
+\emph on
+write_audiofile
+\emph default
  in einer WAV-Datei zu speichern.
  Im nächsten Schritt wird diese WAV-Datei mit der Methode 
 \emph on
@@ -9971,8 +9962,8 @@ noprefix "false"
 
 \end_inset
 
- veranschaulicht die gelesenen Amplituden für das in Abschnitt 7.3 erwähnte
- Video.
+ veranschaulicht die gelesenen Amplituden für das in Abschnitt 7.3 zuvor
+ erwähnte Video.
 \end_layout
 
 \begin_layout Standard
@@ -10021,7 +10012,11 @@ name "fig:Amplituden-des-Audios"
 Im nächsten Schritt werden anhand dieser Amplitude-Daten Ruhezeiten im Video
  ermittelt.
  Vorher wird versucht Audio- und Videoframes zu synchronisieren, indem bei
- Audio-Frames jeder k Frame mit 
+ Audio-Frames nur jeder 
+\begin_inset Formula $k$
+\end_inset
+
+ Frame mit 
 \emph on
 k=audio_rate/video_rate
 \emph default
@@ -10050,7 +10045,11 @@ Nachdem die audiovisuellen Features extrahiert worden sind, werden auf deren
  Als Szene wird hierbei eine sequenzielle Abfolge von gleichmäßigen Bildern
  bezeichnet.
  Bevor die Szenen erfasst werden, wird die durchschnittliche euklidische
- Distanz (meanEuclideanDistance) zwischen allen Videobildern berechnet.
+ Distanz (
+\emph on
+meanEuclideanDistance
+\emph default
+) zwischen allen Videobildern berechnet.
  Der berechnete Wert wird als Schwellenwert für die Erkennung der Bildänderung
  verwendet.
  Dafür wird die Liste der euklidischen Distanzen sekundenweise durchgegangen.
@@ -10071,7 +10070,8 @@ noprefix "false"
 
 \end_inset
 
-) stellt ein Beispiel für Positionen von Schlüsselbildern im Video dar.
+ stellt ein Beispiel für Positionen von Schlüsselbildern im Eingangsvideo
+ dar.
  Die Features Color Dominant und Entropy werden hier nicht weiter betrachtet,
  da sie dasselbe Ergebnis wie die euklidischen Distanzen liefern.
 \end_layout
@@ -10157,8 +10157,8 @@ rt.
  dann dem CNN-Klassifikator zu übergeben.
  Mit der Keras-Bibliothek werden die Bilder geladen und dann zum Bild-Array
  konvertiert.
- Auf Basis dieses Array vergleicht der Klassifikator das Bild mit dem erwähnten
- Modell.
+ Auf Basis dieses Array vergleicht der Klassifikator das Bild mit dem in
+ Kapitel 6.6 erwähnten Modell.
  Schließlich wird dem Bild mit der Vorhersage-Funktion des CNN-Algorithmus
  eine Klasse zugeordnet.
  Da pro Szene drei Bilder übergeben wurden, wird die am häufigsten zugeordnete
@@ -10258,11 +10258,22 @@ Die zu generierenden Daten wurden in Kapitel 6.9 beschrieben.
  Filter überprüfen zu können.
  Dazu wurden vier Benutzerprofile definiert.
  Für jedes Profil werden arbiträre Wertebereiche definiert, von denen jeder
- aus einer Unter- und einer Obergrenze besteht.
+ aus einer Unter- und einer Obergrenze besteht 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Unterschiedliche-Benutzergruppen"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -10283,6 +10294,13 @@ status open
 
 \begin_layout Plain Layout
 Unterschiedliche Benutzergruppen
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Unterschiedliche-Benutzergruppen"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10800,7 +10818,11 @@ learningDuration in %
  Wenn z.
  B.
  10 % einer Szene angeschaut wurden, erhält diese 0,1 Bewertungspunkte.
- Was das Feature numberOfPosts angeht, wird dieses logarithmisch normiert.
+ Was das Feature 
+\emph on
+numberOfPosts
+\emph default
+ angeht, wird dieses logarithmisch normiert.
  Diese Normierung erfolgt durch die Anwendung der untenstehenden Gleichung.
 \end_layout
 
@@ -10821,19 +10843,52 @@ In dieser Gleichung ist
 \end_inset
 
  die maximale Anzahl an Posts im Datensatz.
- Als Nächstes werden die genannten Features mit ihren Gewichten multipliziert.Da
- das Feature learningDuration in % eine bessere Aussage über die Präferenz
- des Benutzers ermöglicht, wird diesem das Gewicht 5 zugewiesen, während
- dem Feature numberOfPosts das Gewicht 2 zugewiesen wird.
- Somit liegt die Bewertung mit learningDuration in % im Wertebereich [0...5],
- während diejenige von numberOfPosts im Bereich [0...2] liegt.
+ Als Nächstes werden die genannten Features mit ihren Gewichten multipliziert.
+ Da das Feature 
+\emph on
+learningDuration in %
+\emph default
+ eine bessere Aussage über die Präferenz des Benutzers ermöglicht, wird
+ diesem das Gewicht 5 zugewiesen, während dem Feature 
+\emph on
+numberOfPosts
+\emph default
+ das Gewicht 2 zugewiesen wird.
+ Somit liegt die Bewertung mit 
+\emph on
+learningDuration in %
+\emph default
+ im Wertebereich [0...5], während diejenige von 
+\emph on
+numberOfPosts
+\emph default
+ im Bereich [0...2] liegt.
  Nach der Umwandlung wird – wie in der Konzeption erwähnt – für die Modellierung
  das Feature learningDuration in % als Benutzerbewertung verwendet (rating
- = learningDuration in %).
+ = 
+\emph on
+learningDuration in %
+\emph default
+).
  Weiterhin werden während der Evaluation beide Features durch Addition kombinier
-t (rating = learningDuration in % + numberOfPosts).
- Schließlich werden learningDuration in % und numberOfPosts gelöscht, da
- sie bereits in das neue Feature rating umgewandelt wurden.
+t (rating = 
+\emph on
+learningDuration in %
+\emph default
+ + 
+\emph on
+numberOfPosts
+\emph default
+).
+ Schließlich werden 
+\emph on
+learningDuration in %
+\emph default
+ und 
+\emph on
+numberOfPosts
+\emph default
+ gelöscht, da sie bereits in das neue Feature rating umgewandelt wurden.
  Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -11148,7 +11203,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Top-5 Top-5 der ähnlichsten Benutzer zu Benutzer 
+Top-5 der ähnlichsten Benutzer zu Benutzer 
 \emph on
 u
 \emph default
@@ -11183,13 +11238,16 @@ Wie in dieser Abbildung zu sehen ist, sind die ähnlichsten Benutzer zu Benutzer
 \end_inset
 
  Benutzer mit dem gleichen Profil.
- Je näher der Korrelationswert (in Abbildung similarityIndex) an 1 ist,
- desto größer ist die Ähnlichkeit des Benutzers zu Benutzer 
+ Je näher der Korrelationswert (in Abbildung 
+\emph on
+similarityIndex
+\emph default
+) an 1 ist, desto größer ist die Ähnlichkeit des Benutzers zu Benutzer 
 \begin_inset Formula $u$
 \end_inset
 
 .
- In der gleichen Abbildung ist festzustellen, dass der aktive Benutzer
+ In der gleichen Abbildung ist festzustellen, dass der aktive Benutzer 
 \begin_inset Formula $u$
 \end_inset
 
@@ -11274,7 +11332,7 @@ weightedRating
 \end_inset
 
  ergeben sich aus der Formel 
-\begin_inset Formula $weightedRating/sum_{s}imilarity$
+\begin_inset Formula $weightedRating/sumimilarity$
 \end_inset
 
 .
@@ -11289,7 +11347,7 @@ noprefix "false"
 \end_inset
 
  veranschaulicht die Ergebnisse dieser Berechnung.
- Die Spalte prediction score enthält die vorhergesagten Bewertungswerte.
+ Die Spalte Prediction Score enthält die vorhergesagten Bewertungswerte.
  In dieser Abbildung ist festzustellen, dass die bei der Gruppe beliebten
  Szenen an der ersten Stellen stehen.
  Außerdem nähern sich die Vorhersageergebnisse den echten Bewertungswerten
@@ -11383,7 +11441,7 @@ g aus diesen beiden Objekten.
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -11437,8 +11495,8 @@ en auf einem objektbasierten Verfahren beruht.
  das Notebook geladen und in einem Panda-Dataframe gespeichert.
  Daraufhin wird dieses Dataframe in ein Surprise-Dataframe umgewandelt.
  Dafür wird der Wertebereich der Bewertungen des Datensatzes konfiguriert.
- Da die Bewertungen des Datensatzes im Bereich [1...5] liegen, werden diese
- Werte konfiguriert.
+ Da die Bewertungen des Datensatzes für die Modellierung im Bereich [1...5]
+ liegen, werden diese Werte konfiguriert.
  Für die Berechnung der Ähnlichkeit zwischen Objekten wird der KNN-Algorithmus
  der genannten Bibliothek verwendet.
  Bei der Instanziierung dieses Algorithmus wird der Parameter 
@@ -11545,7 +11603,7 @@ Nachdem das Modell trainiert wurde, können die nächsten
 get_neighbors
 \emph default
  des Algorithmus ausgegeben werden.
- Ein Beispiel hierfür bietet 
+ Ein Beispiel hierfür bietet Abbildung 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Ähnliche-Objekte"
@@ -11556,7 +11614,7 @@ noprefix "false"
 \end_inset
 
 .
- Hier werden für eine gegebene Szene 
+ Dort werden für die Szene 
 \begin_inset Formula $i=1$
 \end_inset
 
@@ -11618,7 +11676,11 @@ Im nächsten Schritt werden die bislang unbewerteten Objekte durch den aktiven
  Wie beim benutzerbasierten Ansatz wird für alle Objekte des aktiven Benutzers
  der Bewertungswert 0 zurückgegeben.
  Danach werden die Bewertungswerte des aktiven Benutzers für unbekannte
- Objekte mit der Methode predict des Algorithmus vorhergesagt.
+ Objekte mit der Methode 
+\emph on
+predict
+\emph default
+ des Algorithmus vorhergesagt.
  Schließlich werden die Ergebnisse der Vorhersage sortiert, um dann die
  Top-N-Elemente auszugeben.
  Die Abbildung stellt das Ergebnis der Empfehlung für den Benutzer 
@@ -11749,8 +11811,7 @@ predict
  des genannten Algorithmus, die als Parameter den Benutzer und das vorherzusagen
 de Objekt erwartet.
  Die Bewertungen aller unbekannten Objekte werden vorhergesagt.
- Die Ergebnisse der Vorhersage aller unbewerteten Objekte werden in eine
- Liste eingetragen.
+ Die Ergebnisse werden in eine Liste eingetragen.
  Anschließend wird diese Liste nach dem Bewertungswert sortiert, wobei die
  Top-N-Elemente als Ergebnis der Empfehlung ausgegeben werden.
  Die Abbildung zeigt das Ergebnis für den aktiven Benutzer 
@@ -11790,10 +11851,6 @@ Ergebnis der Empfehlung mit dem SVD-Algorithmus
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Die Evaluation der oben entwickelten Ansätze wird im nächsten Kapitel behandelt.
 \end_layout
 
 \begin_layout Chapter
@@ -12086,8 +12143,8 @@ Performance
 Die Performance bezieht sich auf den Datenspeicherverbrauch und die Laufzeit
  der Teilprozesse.
  Die Messungen werden in den Tabellen 8.2 bis 8.5 veranschaulicht.
- Dabei repräsentieren die temporären Artefakte die Ergebnisse der einzelnen
- Teilprozesse.
+ Dabei repräsentieren die temporären Artefakte die Zwischenergebnisse der
+ einzelnen Teilprozesse.
  Die finalen Artefakte repräsentieren die einzelnen Endergebnisse.
 \end_layout
 
@@ -13690,12 +13747,12 @@ Recognitions of interesting Scene Changes
  durch die Erzeugung von Schlüsselbildern (JPG temporäre Artefakte).
  Dem folgt der Teilprozess Cutting the Videos zur Erstellung von Lerneinheiten
  (MP4 in finale Artefakte).
- Die Größe dieser Bilderdateien (JPG) ist abhängig von der Anzahl der ermittelte
-n Schlüsselbilder.
+ Die Größe der Bilderdateien (JPG in temporäre Artefakte) ist abhängig von
+ der Anzahl der ermittelten Schlüsselbilder.
  Was die Gesamtgröße der Lerneinheiten betrifft, ist diese fast genauso
  groß wie das Eingangsvideo, was zu erwarten war.
- Im Gegensatz zu den Zoom-Vorlesungen ist bei der Vorlesung Digitaltechnik
- der Teilprozess 
+ Im Gegensatz zu den Zoom-Vorlesungen ist bei der Vorlesung mit dem unbekannten
+ Aufzeichnungsprogramm der Teilprozess 
 \emph on
 Cutting the Videos
 \emph default
@@ -13751,7 +13808,7 @@ ufzeichnung erkennt.
  Dazu werden die Aufzeichnungen manuell auf die Anzahl an vorkommenden Szenen,
  Pausen und interessanten Szenen analysiert, um das Ergebnis dann mit dem
  Systemergebnis zu vergleichen.
- Für die manuelle Analyse wurde der VLC Media Player verwendet.
+ Für die manuelle Analyse wurde das VLC Media Player verwendet.
  Die Auswertung wird in Tabelle 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -14483,7 +14540,11 @@ Ergebnis der Erkennung: Alle Szenen und einzelnen Szenen werden vom System
 
 \begin_layout Itemize
 Finales Ergebnis und Auswertung: Aus der Analyse resultieren 13 Lerneinheiten
- (in der Tabelle Recognized Interesting Scenes).
+ (in der Tabelle 
+\emph on
+Recognized Interesting Scenes
+\emph default
+).
  Die Dauer dieser Lerneinheiten liegt im Bereich zwischen 2,5 und 24 Minuten.
  
 \end_layout
@@ -14511,27 +14572,13 @@ Finales Ergebnis und Auswertung: Aus der Analyse ergeben sich elf Lerneinheiten.
  
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Finales Ergebnis und Auswertung
-\series default
-: Aus der Analyse entsteht 11 Lerneinheiten.
- Die Dauer dieser Einheiten liegt zwischen 2 und 16 Minuten.
- 
-\end_layout
-
 \begin_layout Subsubsection*
 Vorlesung Artificial Intelligence
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Struktur
-\series default
-: Ebenso wie die Vorlesung Computernetzwerke, beginn und endet diese Vorlesung
- mit 
+Struktur: Ebenso wie die Vorlesung Computernetzwerke, beginn und endet diese
+ Vorlesung mit 
 \emph on
 Professor
 \emph default
@@ -14541,25 +14588,14 @@ Professor
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Ergebnis der Erkennung
-\series default
-: Alle Szenen und einzelne Szenen werden vom System erkannt.
- Es werden 3 einzelne 
-\series bold
-Sildes
-\series default
--Szenen 2 Mal erkannt.
+Ergebnis der Erkennung: Alle Szenen und einzelne Szenen werden vom System
+ erkannt.
+ Es werden 3 einzelne Sildes-Szenen 2 Mal erkannt.
  
 \end_layout
 
 \begin_layout Itemize
-
-\series bold
-Finales Ergebnis und Auswertung
-\series default
-: Aus der Analyse resultieren 4 Lerneinheiten.
+Finales Ergebnis und Auswertung: Aus der Analyse resultieren 4 Lerneinheiten.
  die Dauer von dieser Einheiten liegt zwischen 4 und 11 Minuten.
 \end_layout
 
@@ -14622,7 +14658,7 @@ Anzahl Benutzer größer als Anzahl Objekte
 \begin_layout Standard
 Zur Generierung des Datensatzes werden die Lerneinheiten der Vorlesung Computern
 etzwerk verwendet (elf Lerneinheiten).
- Insgesamt werden 1000 Benutzer aus den vier definierten Profilen generiert.
+ Insgesamt werden 1000 Benutzer aus den vier beschriebenen Profilen generiert.
  Die Abbildungen 8.1 bis 8.3 veranschaulichen das Ergebnis der Messung mit
  den Metriken MAE und RMSE.
 \end_layout
@@ -14695,7 +14731,7 @@ Evaluation des objektbasierten kollaborativen Filterns
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -15091,7 +15127,7 @@ Evaluation des objektbasierten kollaborativen Filtern
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -15409,7 +15445,8 @@ genauigkeit für den vorliegenden Datensatz nicht geeignet ist.
  Was die Vorhersagegenauigkeit betrifft, lieferte der modellbasierte Ansatz
  das beste Ergebnis.
  Für den Fall einer größeren Anzahl an Objekten als an Benutzern lieferte
- auch der objektbasierte Ansatz ein vergleichbares Ergebnis.
+ auch der objektbasierte Ansatz ein vergleichbares Ergebnis mit dem modellbasier
+ten Ansatz.
  Werden die Performanz und die Vorhersagegenauigkeit betrachtet, ist der
  objektbasierte Ansatz besser für den verwendeten Datensatz geeignet.
  Außerdem sorgt dieser Ansatz für mehr Vielfalt hinsichtlich des Empfehlungserge
@@ -15445,7 +15482,11 @@ ten eine längere Übertragungsdauer aufweisen.
  Dadurch könnte ein leeres Whiteboard erkannt werden und könnten die Videoteile
  zwischen zwei leeren Whiteboards als einzelne Szene betrachtet werden.
  Außerdem wurde bei der Performanzevaluierung festgestellt, dass die meiste
- Analysezeit auf den Teilprozess Visual Feature Extraction entfällt.
+ Analysezeit auf den Teilprozess 
+\emph on
+Visual Feature Extraction
+\emph default
+ entfällt.
  Dieses Problem ließe sich womöglich dadurch beseitigen, dass im Zuge des
  Leseprozesses nicht alle Videobilder berücksichtigt werden.
  Für die Bildauswahl könnte etwa ein bestimmtes zeitliches Intervall festgelegt
