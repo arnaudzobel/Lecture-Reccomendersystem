@@ -1,1 +1,1 @@
-Dieses Modell für die Bildklassifikation stammt aus der Masterarbeit von Herr Valeri Asmus.
+Quelle: Die Bilder in diesem Ordner stammen aus der Masterarbeit von Herr Valeri Asmus.
