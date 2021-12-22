@@ -1,0 +1,1 @@
+Dieses Modell für die Bildklassifikation stammt aus der Masterarbeit von Herr Valeri Asmus.

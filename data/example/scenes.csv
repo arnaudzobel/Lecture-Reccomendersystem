@@ -1,0 +1,13 @@
+sceneId,title,start frame,end frame,duration in s,scene type
+1,movie_1,0.00,350,350.08,Slides
+2,movie_2,350,950,600.12,Professor
+3,movie_3,950,1830,880.32,Slides
+4,movie_4,1830,2863,1032.96,Slides
+5,movie_5,2863,3178,314.52,Slides
+6,movie_6,3178,4297,1119.56,Slides
+7,movie_7,4297,4450.84,153.28,Slides
+8,movie_8,4450,4744.36,293.52,Slides
+9,movie_9,4744.36,4920.52,176.16,Slides
+10,movie_10,4920.52,5287.60,367.08,Slides
+11,movie_11,5287.60,5450.72,163.12,Slides
+12,movie_12,5450.72,5457.32,6.60,Professor
